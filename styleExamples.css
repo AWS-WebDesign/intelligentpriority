@@ -1,0 +1,56 @@
+
+body {
+
+  margin: 0;
+  padding: 0;
+  /* align-items: center; */
+
+  /*background possibilities*/
+  background: #40C4F5;
+  background-image:url(https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408-825x465.jpg);
+  background-color:#40C4F5
+  /* background-position: */
+  /* background-repeat: */
+
+  /* font possibilities */
+  font-family: 'cursive', sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: Purple
+  /* font-stretch: */
+  /* font-variant: */
+}
+
+ul {
+  /* Edit unordered list style */
+  font-style:"cursive";
+}
+
+li {
+  /* Edit list item style */
+}
+
+h1 {
+  /* Edit header 1 style */
+  font-family: 'cursive', sans-serif;
+  font-size: 27px;
+  font-weight: 180;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.example1 {
+  /* Edit the class "example1" stle" */
+
+  /* Overflow changes */
+  overflow: auto;
+  /* overflow-x: hidden; */
+  /* overflow-y: scroll; */
+
+  position: relative;
+  border: 2px solid #eee;
+  border-radius: 3px;
+  width: 80%;
+}
