@@ -4,6 +4,7 @@ h1.a {
   color: skyblue;
   font-family: "Courier New", sans-serif;
   font-size: 110px;
+  font-family: "fantasy", sans-serif;
 
 }
 
@@ -33,7 +34,6 @@ h2.b {
 
 body {
   background: skyblue ;
-  font-family: 'Courier New', sans-serif;
   font-size: 25px;
   font-weight: 150px;
   letter-spacing: 2px;
@@ -78,6 +78,7 @@ div.desc {
 .lol2{
   text-align: left;
   border: 5px solid;
+  font-style: Arial;
 
 }
 .lol3{
@@ -87,6 +88,6 @@ div.desc {
 }
 .lol4{
   text-align: left;
-
+font-size: Arial;
 
 }

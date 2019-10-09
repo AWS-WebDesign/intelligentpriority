@@ -89,3 +89,40 @@ div.desc {
   text-align: left;
 
 }
+
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+.topnav {
+  overflow: hidden;
+  background-image:url(https://www.moneycrashers.com/wp-content/uploads/2016/05/seattle-washington-skyline-rainier-1068x600.jpg);
+
+
+
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 20px 16px;
+  text-decoration: none;
+
+}
+.topnav a:hover {
+  background-color: #555;
+  border-right: 1px solid #bbb;
+  display: block;
+  background-color: #555;
+  color: white;
+
+}
