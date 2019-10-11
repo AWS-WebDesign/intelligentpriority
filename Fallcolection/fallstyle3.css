@@ -32,7 +32,7 @@ h2.b {
 
 
 }
-
+/* in here are all the styles displyed in the home page and the styles for the letters */
 body {
   background: skyblue ;
   font-size: 25px;
@@ -76,16 +76,20 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+/* All of thies lol's were crated with  the pourps to do an idvidvual margin or oder for teh text*/
+/* this is a class div, it creates individula style for each div in html*/
 .lol2{
   text-align: left;
   border: 5px solid;
   font-style: Arial;
-
+  /* All of thies lol's were crated with  the pourps to do an idvidvual margin or oder for teh text*/
+  /* this is a class div, it creates individula style for each div in html*/
 }
 .lol3{
   text-align: left;
   border: 5px solid;
-
+  /* All of thies lol's were crated with  the pourps to do an idvidvual margin or oder for teh text*/
+  /* this is a class div, it creates individula style for each div in html*/
 }
 .lol4{
   text-align: left;
