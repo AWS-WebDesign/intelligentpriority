@@ -1,5 +1,5 @@
 
-
+/* style for heding. eveytime there is H1 (heder) in the html file, the style in css will be displyed  */
 h1 {
   text-align: center;
   color:white;
@@ -9,12 +9,15 @@ font-family: Arial;
 font-style: oblique;
 
 }
-
+/* style for the body in html */
 body {
   background-color: #56B4EA;
   margin: 90px;
+  padding-right: 80px;
+  padding-left: 80px;
 
 }
+/* style for heder 2  */
 h2 {
   text-align: center;
   color: White;
@@ -23,13 +26,18 @@ padding: 25px;
 
 }
 
-img {
-  padding-bottom: 80px;
-  padding-left: 80px;
-
+/* image hover is when you put the mouse in the image and the image will hover (not sure if i said it right) but this has the style ofr hovering the image */
+  img:hover {
+    border: 9px solid #777;
 
 }
+img{
+  padding-bottom: 10px
+}
 
+
+
+/* style for the class start*/
 #start {
   margin: 25px;
   padding: 20px;
@@ -39,10 +47,30 @@ img {
   align-items: left;
 
 }
+/* style for the class results*/
 #results {
       padding: 50px;
       display: block;
       background-color: lightblue;
       margin-top: 20px;
       font-size: 18;
+    }
+    /* style for the drop down */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+  /* style for the drop down content*/
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 12px 16px;
+      z-index: 1;
+    }
+  /* style for the drop down hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
     }
