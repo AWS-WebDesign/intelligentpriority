@@ -1,0 +1,48 @@
+
+
+h1 {
+  text-align: center;
+  color:white;
+background-color:;
+padding: 25px;
+font-family: Arial;
+font-style: oblique;
+
+}
+
+body {
+  background-color: #56B4EA;
+  margin: 90px;
+
+}
+h2 {
+  text-align: center;
+  color: White;
+background-color: ;
+padding: 25px;
+
+}
+
+img {
+  padding-bottom: 80px;
+  padding-left: 80px;
+
+
+}
+
+#start {
+  margin: 25px;
+  padding: 20px;
+  background-color: black;
+  color: #FFC48F;
+  display: none;
+  align-items: left;
+
+}
+#results {
+      padding: 50px;
+      display: block;
+      background-color: lightblue;
+      margin-top: 20px;
+      font-size: 18;
+    }
