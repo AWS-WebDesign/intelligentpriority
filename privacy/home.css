@@ -1,0 +1,86 @@
+h1 {
+  margin: 0px;
+  color: black;
+}
+
+a{
+  float: left;
+  font-size: 20px;
+}
+
+.all{
+  background-color: black;
+}
+
+body {
+  background-color: white;
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-size: 45px;
+}
+
+.p{
+  color: red;
+}
+
+.lock{
+  height: 100px;
+  width: 100px;
+  display: block;
+  background-image:url("stock.gif");
+  position: relative;
+  transition: background-image 4s;
+
+  animation-name: example2;
+  animation-timing-function: linear;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  float: left;
+
+}
+
+h2{
+  color: black;
+}
+
+
+@keyframes example2 {
+  0% {font-size: 10px; top: 0px; left: 0px;}
+  50% {font-size: 20px; top: 30px; left: 40px;}
+  100% {font-size: 10px; top: 0px; left: 0px;}
+}
+
+
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+  background-color: grey;
+  width: 15%;
+
+}
+
+.topnav a.nav{
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  text-decoration: none;
+  background-image: url("fox.jpg");
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: black;
+  color: red;
+}
+.topnav a.wildlife:hover {
+  background-image: url("fox2.jpg");
+  color: black;
+}
