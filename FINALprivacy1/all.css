@@ -1,0 +1,80 @@
+.page{
+  background-color: black;
+  font-family: copperplate;
+  color: white;
+}
+
+.page h1{
+  border-color: blue;
+  border-style: groove;
+  border-width: 10px;
+/*every h1 element in the div "page" will have these attributes*/
+  font-size: 72px;
+  padding-top: 5px;
+}
+
+.page h2{
+  border-width: 10px;
+  /*every h2 element in the div "page" will have these attributes,
+  they have a smaller font than the h1 contents*/
+  font-size: 30px;
+  padding-top: 5px;
+}
+
+
+.page a {
+  color: white;
+  /*the text that are links in the div "page" will be white*/
+}
+
+.topnav a {
+  /*outlines the style links in the navigation bars for all pages*/
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  align-items: left
+  padding: 14px 16px;
+  font-size: 60px;
+  border-color: blue;
+  border-style: groove;
+  width: 48.5%;
+  height: 300px;
+}
+
+.topnav a.nav{
+  float: left;
+  /*floating left allows them to line up properly next to one another*/
+  display: block;
+  color: red;
+  text-align: center;
+  text-decoration: none;
+  background-image: url("fox.jpg");
+}
+
+/* Links - change color of text and background on hover */
+.topnav a:hover {
+  background-color: black;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
