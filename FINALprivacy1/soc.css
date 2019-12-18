@@ -1,0 +1,150 @@
+.page{
+  background-color: black;
+  font-family: copperplate;
+  color: white;
+}
+
+.more {
+  background-color: black;
+
+}
+.page h1{
+  border-color: blue;
+  border-style: groove;
+  border-width: 10px;
+  font-size: 72px;
+  padding-top: 5px;
+}
+
+.page a {
+  color: white;
+}
+
+.gallery{
+  float: left;
+  padding: 10px;
+  background-color: black;
+}
+
+#instagram {
+  float: center;
+}
+
+#facebook {
+  float: left;
+}
+
+.lock{
+  height: 120px;
+  width: 200px;
+  display: block;
+  background-color: blue;
+  color: black;
+  font-size: 80px;
+  position: relative;
+  transition: background-image 4s;
+
+  animation-name: example2;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-iteration-count:
+  animation-delay: 2s;
+  float: center;
+
+}
+
+@keyframes example2{
+  0% {width: 0px; height: 50px;}
+    30% {width: 350px; height: 90px;}
+    50% {width: 500px; height: 90px;}
+    100% {width: 500px; height: 90px;}
+}
+
+.move{
+
+  position: relative;
+  transition: background-image 4s;
+
+  animation-name: example3;
+  animation-timing-function: linear;
+  animation-duration: 3s;
+  animation-iteration-count:
+  animation-delay: 2s;
+  float: center;
+}
+
+.move:hover{
+  background-color: blue;
+}
+
+@keyframes example3{
+  0% {width: 500px; height: 500px;}
+    100% {width: 500px; height: 400px;}
+}
+
+
+
+
+.lock p{
+  font-size: 30px;
+}
+
+.lock h2{
+  background-color: white;
+  color: blue;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+  background-color: white;
+  width: 15%;
+
+}
+
+.topnav a.nav{
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  text-decoration: none;
+  background-image: url("fox.jpg");
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: black;
+  color: red;
+}
+.topnav a.wildlife:hover {
+  background-image: url("fox2.jpg");
+  color: black;
+}
+
+.title{
+  height: 100px;
+  width: 300px;
+  display: block;
+  margin: 45px;
+  padding: 45px;
+  background-color: blue;
+  border-color: white;
+  border-width: 30px;
+  border-color: blue;
+  position: relative;
+  transition: background-image 4s;
+
+  animation-name: example2;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+}
+
+.title:hover {
+  background-color: red;
+}
