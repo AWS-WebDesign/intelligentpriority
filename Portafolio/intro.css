@@ -1,0 +1,26 @@
+body{
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/129437f6-24e0-4527-8543-d9e4235f67ae/ddk0os-eb8727f2-23e6-4516-a3a5-0d85e89460f6.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzEyOTQzN2Y2LTI0ZTAtNDUyNy04NTQzLWQ5ZTQyMzVmNjdhZVwvZGRrMG9zLWViODcyN2YyLTIzZTYtNDUxNi1hM2E1LTBkODVlODk0NjBmNi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.wAdNmN0fFrEZ8fyTASKZ7IprngWEgnQuTcNU7Yth3Pc);
+  color: blue;
+  font-size: 125px;
+  font-weight: 550px;
+  margin-left: 650px;
+  margin-right: 650px;
+  margin-top: 400px;
+  font-family:cursive;
+  background-position: top;
+}
+.home{
+  font-size: 50px;
+}
+.title{
+  position: absolute;
+    white-space: nowrap;
+    -webkit-animation: rightThenLeft 5.5s ;
+    text-align: center;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes rightThenLeft {
+  0% { right: 0px;}
+  50% { right: 450px;}
+  100% { right: 0px;}
+}
