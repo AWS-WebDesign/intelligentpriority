@@ -79,3 +79,10 @@ body{
       color: white;
       font-size: 75px;
     }
+    p{
+      font-size: 50px;
+    }
+    img{
+      width: 1000px;
+      height: 800px;
+    }
